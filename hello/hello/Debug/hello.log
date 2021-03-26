@@ -1,0 +1,34 @@
+﻿Build started 3/26/2021 4:07:49 PM.
+     1>Project "C:\Users\Administrator\documents\visual studio 2010\Projects\hello\hello\hello.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\linkedList.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\linkedList.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\linkedList.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hello.cpp
+         hello.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\hello\hello\hello.cpp(174): warning C4715: 'search' : not all control paths return a value
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\linkedList.exe.embed.manifest.res" Debug\linkedList_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\linkedList.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.lib" /MACHINE:X86 Debug\linkedList.exe.embed.manifest.res
+         Debug\hello.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\linkedList.exe.embed.manifest" /manifest Debug\linkedList.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\linkedList.exe.embed.manifest.res" Debug\linkedList_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\linkedList.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.lib" /MACHINE:X86 Debug\linkedList.exe.embed.manifest.res
+         Debug\hello.obj
+         Debug\stdafx.obj
+         hello.vcxproj -> C:\Users\Administrator\documents\visual studio 2010\Projects\hello\Debug\linkedList.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\linkedList.unsuccessfulbuild".
+         Touching "Debug\linkedList.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\documents\visual studio 2010\Projects\hello\hello\hello.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.37
